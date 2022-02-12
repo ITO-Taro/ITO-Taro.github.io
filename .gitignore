@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/*
+*.pyc
+test*
+project_description*
+salary_analysis_description*
