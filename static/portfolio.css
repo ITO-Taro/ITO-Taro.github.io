@@ -1,0 +1,197 @@
+#landing-container{
+    /* background-color: rgb(119, 211, 242); */
+    /* background-color:#5c5b60; */
+    padding-right: 0;
+}
+
+#landing-msg{
+    padding-left: 8vh;
+}
+#landing-name{
+    font-family: 'Maitree', 'Times New Roman';
+    font-size: 6rem;
+    color: #454d54;
+    
+}
+
+#landing-selfintro{
+    font-family: 'Maitree', 'Times New Roman';
+    font-size: 2rem;
+    color: #454d54;
+
+}
+
+#landing-img{
+    padding-right: 0px;
+    text-align: right;
+    height: 100vh;
+    width: auto;
+}
+
+#self-img{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+#landing-btn{
+    background-color:white;
+    font-family: 'Maitree', 'Times New Roman';
+    color: #454d54;
+    background-color: rgb(119, 211, 242);
+    border: #454d54 solid 2px;
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+#link-to-home{
+    color: #454d54;
+    /* color: white; */
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+:root{}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+}
+.bg-img#base{
+    background-image: url("header_img.jpeg");
+}
+.bg-img#salary-analysis{
+    /* background-image: url("data_science.jpeg"); */
+    background-image: url("big_data2.jpeg");
+}
+
+
+.heading1 {
+    padding-top: 1%;
+    padding-left: 4%;
+    margin-bottom: 0;
+    font-family: 'Maitree', 'Times New Roman';
+    font-weight: bold;
+    font-size: 7rem;
+    color:rgb(3, 7, 55);
+    /* color: white; */
+    height: 13%;
+}
+
+.heading2 {
+    margin-top: 2%;
+    padding-left: 5%;
+    font-family: 'Maitree', 'Times New Roman';
+    font-size: 3rem;
+    font-style: italic;
+    color:rgb(3, 7, 55);
+    /* color: white; */
+    font-weight: 400;
+}
+
+nav {
+    padding-left: 4%;
+}
+
+.nav-item {
+    font-family: 'Maitree', 'Times New Roman';
+    font-size: 140%;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.nav-item a {
+    color:rgb(3, 7, 55);
+}
+
+.nav-item a:hover {
+    color: gold;
+    background-color:rgba(3, 7, 55, 0.626);
+    /* font-size:3.5vh; */
+    font-weight: bold;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(15, 5, 128) 2px;
+    border: solid rgb(15, 5, 128) 2px;
+}
+
+#row-main-1{
+    margin-top: 3%;
+    font-family: 'Maitree', 'Times New Roman';
+    font-size: 6rem;
+    color: #454d54;
+}
+
+#row-main-2{
+    margin-top: 1%;
+}
+
+.intro{
+    margin: 10rem;
+}
+.self-intro{
+    font-family: 'Maitree', Times;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(15, 5, 128);
+    text-align: center;
+}
+
+#intro {
+    margin-top: 5rem;
+}
+
+.self-img{
+    display: inline-flexbox;
+    /* width: 27%;
+    height: 90%; */
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.landing-img{
+    padding-right: 0px;
+    width: 27%;
+    height: 90%;
+}
+
+.self-img-main{
+    width: 48vh;
+    height: 48vh;
+    border-radius: 50%;
+    /* background-image: url("ITO_Taro_round.jpeg"); */
+}
+
+.self-intro-header{
+    display: inline-flexbox;
+    width: 50%;
+    padding-top: 8%;
+    margin-left: 1%;
+    font-size: 30px;
+}
+.self-intro-msg{
+    font-family: 'Maitree', Times;
+    font-size: 30px;
+    font-weight: 700;
+    /* color: rgb(15, 5, 128); */
+    color: #454d54;
+    text-align: left;
+}
+
+#salary-analysis-home-heading{
+    font-size: 6vw;
+}
+
+#navbarSupportedContent-salary-analysis.li{
+    font-size: 1.5vw;
+}
+

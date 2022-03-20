@@ -1,0 +1,17 @@
+{% extends "health_care_portal_base.html" %}
+{% block content %}
+<br>
+<center>
+    <div>
+        <form method='post' action='/emp_search/salary_range'>
+            <label for="min">Minimum Amount:</label>
+            <input type='text' name='min' />
+            <label for="max">Maximum Amount:</label>
+            <input type='text' name='max' />
+            <input type='submit' />
+        </form>
+    </div>
+    <div style="color:red; font-size:30px">{{message}}</div>
+</center>
+
+{% endblock %}

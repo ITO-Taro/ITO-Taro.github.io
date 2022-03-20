@@ -1,0 +1,13 @@
+{% extends "health_care_portal_base.html" %}
+{% block content %}
+<center>
+<div>
+    <form method="post" action="/emp_search">
+        <label for="emp_id">Enter Employee ID Number</label>
+        <input type="text" name="emp_id"/>
+        <input type="submit">
+    </form>
+</div>
+<div style="color:red; font-size:30px">{{message}}</div>
+</center>
+{% endblock content %}

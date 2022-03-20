@@ -1,0 +1,70 @@
+Welcome to Salary Analysis Data Science Project
+
+Over View:
+
+This project demonstrates my skills in working with big data. Below is the list of some of the major techniques used:
+	▪	pandas to read data from txt, and csv files
+	⁃	Limit data to designated columns, if not all
+	⁃	Separate data by specified parameters (e.g., gender, salary grade, department)
+	▪	‘for loop’ & ‘lambda’ to clean data (i.e., remove unnecessary characters)
+	▪	Mathematical logic to decipher coded salary information
+	▪	python methods (e.g., random) and logics to generate unique employee id to each employee without duplicating numeric values
+	▪	statistics equations to calculate basic statistical values *without statistics library
+	▪	‘datetime’ class to calculate each employee’s tenure and determine the amount of salary raise
+	▪	classify employees’ employment status based on salary grade
+	▪	‘matplotlib’ to visualize data separated by varying parameters (e.g., gender, salary grade, department) via bar chart, pie chart, scatter plot, and etc.
+	▪	‘jinja’ & ‘html’ to make tables and charts images available on browsers
+
+Task Descriptions:
+
+Employee Counts by Gender & More: 
+	1.	Counts the number of employee by gender per salary grade or department. 
+	2.	The results are displayed in a table and graphed in pie charts using ‘mathplotlib’
+
+List All Employees: 
+	1.	the program reads the original file with information of all employees using pandas dataframe
+	2.	cleans the data by removing unnecessary characters using lambda 
+	3.	decodes the values start with ‘3X’ in salary column by str((int(i)%10+7)%10) to revert it back to the correct value using lambda
+	4.	First names and last names are extracted and formatted as ‘LAST, First’. The resulting values are then transferred to a new column named ‘name’
+	5.	hire dates are parsed into datetime objects
+	6.	lists processed information of all employees in a table
+
+Employees by Dept:
+	1.	Counts the number of employees by department and creates a horizontal bar graph
+	2.	Lists all employee information per department in a html table using jinja
+
+All Employees with Dept:
+	1.	Merges the dataframe that contains all employee information and dataframe that only contain department name and its abbreviation
+	2.	displays the result in html table using jinja
+
+All Active Employee by Dept.:
+	1.	Filters out the employees who has left the company
+	2.	Calculates the tenure for each employee
+	3.	Counts the number of employees per dept. grouped by tenure in years
+	4.	Create a bar chart with the result for each dept.
+	5.	List all employees sorted by hire date in an ascending order for each dept.
+
+Salary Analysis:
+	1.	Decipher the coded values which were indicated by ‘3X’ in front. The cipher logic is as follows. 0 >> 7,  1 >> 8, 2 >> 9,…..9 >> 6. 3X189933 —> 856600. Solution: (int(salary_value)%10+7)%10
+	2.	Calculate mean, mode, median, & standard deviation of all employees of all genders and per gender
+	3.	Compare the basic statistics values (i.e., between genders)
+	4.	Add employment status column and classify employees to either Exempt or Non-Exempt based on salary grades.
+	5.	Calculate mean, mode, median, & standard deviation of each salary grade and each employment status
+	6.	Create a pie chart the number of employees by gender for each employment status
+	7.	Create scatter plots with the following, mean salary by salary grade with all genders, with only male and with only female.
+	8.	Create a horizontal bar charts with mean salary separated by gender for each employment status
+
+Employee ID:
+	1.	Construct an id for every employee consisting first three letters of one’s last name and first name followed by three digit number that is unique to each employee and does not overlap. (E.g., ITO Taro —> ‘ITOTAR259’
+
+Salary Raise:
+	1.	Calculate the tenure of each employees, the amount of time between hire_date and today(), by using pd.timedelta. Then convert the value into years.
+	2.	Look at compare one’s salary grade and number of years worked to raise schedule and calculate the appropriate raise amount
+	3.	Create new columns ‘raise_amount’ and ‘new_salary’ and filled them.
+	4.	Calculate and chart the sum of new_salary for each dept.
+	5.	Create a pie chart that shows the percentage each dept has of the total budget allocated for raises.
+	6.	Create a pie chart to show the percentages of total raise amount allocated for all male and female employees
+	7.	Create the same pie chart above one for each dept.
+	8.	Create a new column named ‘promotion’ and compare each employee’s salary after raise to salary grade schedule. If new_salary exceeds the maximum amount in the schedule for one’s salary grade, enter ‘Promotion Due’ in the new column.
+
+ 

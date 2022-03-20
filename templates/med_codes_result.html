@@ -1,0 +1,21 @@
+{% extends "health_care_portal_base.html" %}
+{% block content %}
+<br>
+<center>
+<table style='border: 1px solid black; width:500px'>
+    <thead>
+        <tr>
+        <th style='border: 1px solid black', rowspan="2"><center>CODE</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>DESCRIPTION</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>CATEGORY</center></th>
+        </tr>
+    </thead>
+    <tbody>
+        <td style='border: 1px solid black'><center>{{code}}</center></td>
+        <td style='border: 1px solid black'><center>{{description}}</center></td>
+        <td style='border: 1px solid black'><center>{{category}}</center></td>
+        </tr>
+    </tbody>
+    </table>
+</center>
+{% endblock content %}

@@ -1,0 +1,16 @@
+{% extends "health_care_portal_base.html" %}
+
+{% block content %}
+<br>
+<center>
+    <div>
+        <form method='post' action='/med_descript'>
+            <label for="key_word">Enter Key Word:</label>
+            <input type='text' name='key_word' />
+            <input type='submit' />
+        </form>
+    </div>
+    <div style="color:red; font-size:30px">{{message}}</div>
+</center>
+
+{% endblock %}
