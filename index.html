@@ -1,0 +1,596 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!-- <span class="icon fa-atom-simple"></span> -->
+							<!-- Cannot replace the icon for sme reason -->
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>TARO ITO</h1>
+								<p>HF/UX Expert with Passion in Data Science<br>Click links below to learn more</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Who I Am</a></li>
+								<li><a href="#skills">Skills</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#education">Education</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Who I Am</h2>
+								<span class="image main"><img src="images/self_img_1_cropped.jpeg" alt="" /></span>
+								<p>Hi, I am Taro Ito. <br><br>A Human Factors expert talented in computer programming with passion in Data Science. Seeking to apply HF knowledge, Big Data skills, and professional experience along with my bicultural and bilingual background, Japan & U.S. in improving product UX or solving organizational problems.</p>
+								<p>Currently, pursuing computer programming certificate in Python. Projected graduation date: 10MAY2022</p>
+								<p>Click here for <a href="#projects">recent projects</a></p>
+							</article>
+						
+						<!-- projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								<h3>Data Science: Organization Employee Analysis</h3>
+								<h4>Overview</h4>
+								<ul>
+									<li>Read data from multiple csv, txt, and xcel files that has all employee information, raise schedule, raise amout, and etc.</li>
+									<li>Clean extracted data (e.g., remove symbols)</li>
+									<li>Decipher salary for specific employees</li>
+									<li>Create pandas DataFrame with extracted data</li>
+								</ul>
+								<span class="image main"><img src="images/graph1.png" alt="" /></span>
+								<ul>
+									<li>Calculate how long each employee has worked by subtracting one's first day from today</li>
+									<li>Group employees by department</li>
+									<li>Group employees by the years worked</li>
+									<li>Create a bar graph for each dept using matplotlib</li>
+									<li>Convert bar image to url via base64</li>
+									<li>Use Flask & Jinja to export image to html</li>
+								</ul>
+								<span class="image main"><img src="images/table.png" alt="" /></span>
+								<ul>
+									<li>Calculate raise amount and the salary in accordance to raise schedule for each employee</li>
+									<li>Add calculated values to main table for all employees</li>
+									<li>Create table using html</li>
+									<li>Populate html talbe using Jinja</li>
+								</ul>
+								<span class="image main"><img src="images/salary_dist.png" alt="" /></span>
+								<ul>
+									<li>Group employees by gender</li>
+									<li>Use matplotlib to create a distribution curve for salary for eeach gender</li>
+									<li>Convert bar image to url via base64</li>
+									<li>Use Flask & Jinja to export image to html</li>
+								</ul>
+								<h3>Application: Health Care Portal</h3>
+								<h4>overview</h4>
+								<ul>
+									<li>Create health care portal accessible by web browswers and create & store data in a database</li>
+									<li>Read & clean all files that conatain data for this project</li>
+									<li>Analyze extracted data and create tables in database accordingly (e.g., consistent column names)</li>
+									<li>Connect to database and upload cleaned data to appropriate tables</li>
+								</ul>
+								<span class="image main"><img src="images/med_code.png" alt="" /></span>
+								<span class="image main"><img src="images/med_code_input.png" alt="" /></span>
+								<span class="image main"><img src="images/med_code_res.png" alt="" /></span>
+								<h4>Medical Code Search</h4>
+								<ul>
+									<li>Takes a complete medical code</li>
+									<li>Search database for given code</li>
+									<li>Returns all information</li>
+									<li>Dispaly the result in table using jinja & html</li>
+								</ul>
+								<span class="image main"><img src="images/emp_search_last.png" alt="" /></span>
+								<span class="image main"><img src="images/emp_search_last_input.png" alt="" /></span>
+								<span class="image main"><img src="images/emp_search_last_res.png" alt="" /></span>
+								<ul>
+									<li>Takes a partial or complete last name</li>
+									<li>Searches database for given name</li>
+									<li>Returns all info on employees whose last name match or include the name under search</li>
+									<li>Turns the last 3 letters of each employee's last & first name into "X"</li>
+									<li>Counts the number of record found</li>
+									<li>Dispaly the result in table using jinja & html</li>
+								</ul>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<h4>2019 - 2021</h4>
+								<h3>WeLocalize</h3><h4>Linguistic Tester</h4>
+								<ul>
+									<li>Evaluate user input collected by client</li>
+									<li>Refine & update existing system’s interpretation of user’s command & queries</li>
+									<li>Provide information for client's AI</li>
+								</ul>
+								<h3>Embry-Riddle Aeronautical University</h3><h4>Aging, Perception & Performance Lab (APPL)</h4>
+								<ul>
+									<li>Support APPL’s lead researcher and principal researcher</li>
+									<li>Identify target & goals</li>
+									<li>Evaluate research methods</li>
+									<li>Conduct literature review</li>
+									<li>Develop surveys</li>
+									<li>Data collection & anaysis</li>
+									<li>Develop research reports</li>
+								</ul>
+								<h3>Mitsubishi Aircraft Corp. America</h3><h4>Japanese Office Manager & Safety Investigtor</h4>
+								<span class="image main"><img src="images/mrj.jpeg" alt="" /></span>
+								<ul>
+									<li>Flight Safety Management Office</li>
+									<li>Facilitate cross-cultural & cross-departmental efforts</li>
+									<li>Bridged Japan-US cultutal gaps</li>
+									<li>Initiated and led Foreign Object Debris Committee & Occupational Safety Improvement that involved several depts</li>
+									<li>Made significant contribution in executing an enterprise-wide event organized by our team</li>
+								</ul>
+								<h4>2013 - 2019</h4>
+								<h3>Japan Ministry of Defense</h3><h4>Emergency Service Dispatcher</h4>
+								<span class="image main"><img src="images/911.jpeg" alt="" /></span>
+								<ul>
+									<li>100% team work: members rely on one other to complete the job</li>
+									<li>Effectively interview anxious, terrified, and / or disturbed callers</li>
+									<li>Obtain information essential for first-responders</li>
+									<li>Become thoroughly familiar with other team members' roles to provide direct assistance when necessary</li>
+								</ul>
+								
+							<!-- Education -->
+							</article>
+							<article id="education">
+								<h2 class="major">Education</h2>
+								<h4>2021 - 2022</h4>
+								<h3>Code Immersives (Digital Film Academy)</h3><h4>Python Computer rogramming Certificate</h4>
+								<span class="image main"><img src="images/python.jpeg" alt="" /></span>
+								<ul>
+									<li>GPA: 3.90</li>
+									<li>Python: 900 hours of Programming</li>
+									<li>Databse Operation: store, retrieve, & update database via MySQL, SQLite, SQLAlchemy, & MongoDB</li>
+									<li>Data Science: develop autonomous process and vasualization (charts & tables) of large data via pandas, matplotlib, & scikit-learn</li>
+									<li>Web Development: utilize Flask, Django, Jinja & html</li>
+									<li>Version Control System: utilize Github and collaborate with other developers</li>
+									<li>Amazon Web Service (AWS): learn the fundamentals of AWS</li>
+								</ul>
+								<h4>2017 - 2019</h4>
+								<h3>Embry-Riddle Aeronautical University</h3><h4>Master of Science: Human Factors</h4>
+								<span class="image main"><img src="images/erau1.jpeg" alt="" /></span>
+								<ul>
+									<li>GPA: 3.33</li>
+									<li>Human Computer Interaction (HCI)</li>
+									<li>Statistical Analysis</li>
+									<li>Research Methods</li>
+									<li>Human Factors Engineering</li>
+									<li>Ergonomics</li>
+									<li>Aviatino Finance</li>
+									<li>Corporate Finance</li>
+								</ul>
+								<h4>2015 - 2017</h4>
+								<h3>University of Maryland University College</h3><h4>Bachelor of Science: Psychology</h4>
+								<ul>
+									<li>GPA: 3.89</li>
+									<li>Research Methods</li>
+									<li>Cross-Cultural Psychology</li>
+									<li>Statistics</li>
+									<li>Psychological Statistics,</li>
+								</ul>
+								<h4>2006 - 2009</h4>
+								<h3>University of South Floridae</h3><h4>Bachelor of Arts & Science: Economics</h4>
+								<ul>
+									<li>Computers in Business</li>
+									<li>Principles of Management</li>
+									<li>Business Calculus</li>
+								</ul>
+							</article>
+
+						<!-- About -->
+							<article id="skills">
+								<h2 class="major">Skills</h2>
+								<span class="image main"><img src="images/skills.jpeg" alt="" /></span>
+								<h3>Computer programming & Data Science</h3>
+								<ul>
+									<li>Python</li>
+									<li>Amazon Web Services (AWS)</li>
+									<li>Java Script</li>
+									<li>MySQL</li>
+									<li>SQLite</li>
+									<li>AQLAlchemy</li>
+									<li>MongoDB</li>
+									<li>Data Analysis</li>
+									<li>Data Visualization</li>
+									<li>Data Cleaning</li>
+									<li>numpy</li>
+									<li>pandas</li>
+									<li>matplotlib</li>
+									<li>scipy</li>
+									<li>scikit-learn</li>
+									<li>Software Development Life Cycle (SDLC)</li>
+									<li>Version Control System</li>
+									<li>Github</li>
+									<li>Gitlab</li>
+									<li>Debugging/Debug</li>
+									<li>Unit Test</li>
+									<li>Refactoring/Refactor</li>
+									<li>Application/Website Launch</li>
+									<li>Flask</li>
+									<li>Django</li>
+									<li>Jinja</li>
+									<li>html</li>
+									<li>Statc</li>
+									<li>Templates</li>
+									<li>Models</li>
+									<li>api</li>
+									<li>app</li>
+								</ul>
+								<h3>Human Factors (HF) & User Experience (UX)</h3>
+								<ul>
+									<li>User-Centric Design</li>
+									<li>User-Centered Design</li>
+									<li>Human Computer Interaction (HCI)</li>
+									<li>Task Analysis</li>
+									<li>Cognitive Analysis</li>
+									<li>Interface Anaysis</li>
+									<li>Workload Assessment</li>
+									<li>Situational Awareness Assessment</li>
+									<li>Heuristic Evaluation</li>
+									<li>Hierarchical Task Analysis</li>
+									<li>Human Factors Analysis Classification System (HFACS)</li>
+									<li>Software & Website Prototype/Mockup</li>
+									<li>NASA TLX</li>
+									<li>Website Analysis & Measurement Inventory (Interface Analysis)</li>
+									<li>Task Performance Time Analysis</li>
+								</ul>
+								<h3>Research & Statistics</h3><li></li>
+								<ul>
+									<li>ANOVA</li>
+									<li>MANOVA</li>
+									<li>T-test</li>
+									<li>Correlation</li>
+									<li>Regression</li>
+									<li>Factor analysis/li>
+									<li>Survey</li>
+									<li>Natural Observation</li>
+									<li>Remote Observation</li>
+									<li>Direct Observation</li>
+									<li>Focus Group</li>
+									<li>Card Sorting</li>
+									<li>Interview</li>
+									<li>SPSS</li>
+								</ul>
+								<h3>Communication Skills</h3>
+								<ul>
+									<li>Organize cross-cultural team efforts</li>
+									<li>Organize cross-departmental team efforts</li>
+								</ul>
+								<h3>Ptototype & Mockup</h3>
+								<ul>
+									<li>Axure</li>
+									<li>Tableau</li>
+								</ul>
+								<h3>Office Software</h3>
+								<ul>
+									<li>Microsoft Office Word</li>
+									<li>Microsoft Office PowerPoint</li>
+									<li>Microsoft Office Excell</li>
+									<li>Microsoft Office Teams</li>
+									<li>Microsoft Office Outlook</li>
+								</ul>
+								<h3>Languages</h3>
+								<ul>
+									<li>Japanese (mother tongue)</li>
+									<li>English</li>
+								</ul>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
