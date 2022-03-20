@@ -1,0 +1,36 @@
+{% extends "salary_analysis_base.html" %}
+{% block content %}
+<center>
+<h2>All Employees with Employee ID</h2><br>
+<h4>For each employee, create an unique id that consists of the first 3 chatactoers of last name and first name.<br> Then add a random number between 1 and 999 at the end with no duplicates. Sort the list by the ID</h4><br>
+
+<table style='border: 1px solid black; width:800px'>
+    <thead>
+        <tr>
+        <th style='border: 1px solid black', rowspan="2"><center>Employee ID</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>Name</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>Gender</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>Salary Grade</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>Salary</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>Dept</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>Hire Date</center></th>
+        </tr>
+    </thead>
+    {% for n in df.index %}
+    <tbody>
+        <tr>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "emp_id"]}}</center></td>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "name"]}}</center></td>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "gender"]}}</center></td>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "s_g"]}}</center></td>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "salary"]}}</center></td>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "dept"]}}</center></td>
+            <td style='border: 1px solid black'><center>{{df.loc[n, "hire_date"]}}</center></td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
+<br><br>
+
+</center>
+{% endblock content %}

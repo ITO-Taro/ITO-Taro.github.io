@@ -1,0 +1,42 @@
+Welcome to Health Care Portal Project
+
+Over View:
+
+This project demonstrates some of my skills listed below:
+	▪	Read data from excel, text, and csv files
+	▪	Create, insert, and retrieve information from data base using SQLite and SQLAlchemy queries including complex filtering or conditioning
+	▪	Create tables in html with the retrieved data
+	▪	Visualization of retrieved data via various charts using matplotlib
+	▪	Make tables and charts images available on browsers via html using jinja
+
+Description of Tasks:
+
+Medical Code Look UP - Retrieves all information associated with the medical code under search. The input must be an exact match. Incomplete or incorrect input will result in a table with “Invalid Medical Code” as value
+
+Key Word Search - Filters the input through descriptions of all medical codes and retrieves all information whose description matched the input. But the input must be 2 characters or more.
+
+Employee Search - Retrieves all information associated with the employee ID under search. The input must a complete employee ID or return a message that says “Invalid Employee ID”. 
+
+Employee Search By Last Name: Retrieves all information associated with the name under search. The input may be partial or complete but must be 2 characters or more. 
+
+Filter By Salary: Retrieves all employee information whose salary fell in the provided range. Input must be greater than a single digit. Inputs that are between 2 and 3 digits will be multiplied by 1000 before filtering. Inputs that are greater than 3 digits will remain as is. 
+
+Employee Portal - Retrieves all employee information and all medical procedure transaction information associated with the input. The input must be a complete Employee ID to work.
+
+HR Portal - Takes 2 types of input, employee ID or medical code. Retrieves all employee information associated with the employee ID given. When a medical code is entered,  it retrieves all employee information who had used or claimed the medical code in the past. It also calculates the mean procedure price by gender.
+
+HR Summary - Calculates the annual total number of medical procedures claimed, number of employees who claimed one or more medical procedure(s), total, mean, median, modes, and standard deviation cost of all procedures.
+
+HR Benefit Cost - Retrieves total number of employees, total number of medical procedure claimed, total, mean, median, modes, and standard deviation of medical cost per job title per year. 
+
+Medical Cost Analysis By Gender - Retrieves the mean, median, modes, standard deviation of each medical procedure per gender and compares the difference in mean cost between the genders. The information associated with each medical procedure are displayed in a table format.
+
+Medical Cost Analysis Chart - Retrieves all medical costs and groups them by title, year,  and year & gender. Then creates various types of charts.
+
+Salary Analysis - Uses SQLAlchemy to retrieve salaries of all employees from a table in data base and creates a frequency distribution chart, cumulative frequency distribution chart via Also computes mean, median, modes, standard deviation, differences in means of all employees, grouped by gender, and grouped by gender and job title. The charts are displayed in images and computed values are presented in a table format.
+
+Salary Analysis With Pandas - Uses pandas to load employee data from the original file. Returns charts and table identical to Salary Analysis page.
+
+Med Code Analysis With SQL - Uses SQL statements via SQLAlchemy to retrieve data from the data base. Lists the 10 employees with the highest total medical cost and top 10 medical procedures by frequency and total cost. 
+
+

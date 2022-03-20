@@ -1,0 +1,26 @@
+{% extends "health_care_portal_base.html" %}
+{% block content %}
+<br>
+<center>
+<table style='border: 1px solid black; width:800px'>
+    <thead>
+        <tr>
+        <th style='border: 1px solid black', rowspan="2"><center>CODE</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>DESCRIPTION</center></th>
+        <th style='border: 1px solid black', rowspan="2"><center>CATEGORY</center></th>
+        </tr>
+    </thead>
+    <h3>{{result}}</h3>
+    <br>
+    {% for n in range(data|length) %}
+    <tbody>
+        <tr>
+        <td style='border: 1px solid black'><center>{{data[n].code}}</center></td>
+        <td style='border: 1px solid black'><center>{{data[n].description}}</center></td>
+        <td style='border: 1px solid black'><center>{{data[n].category}}</center></td>
+        </tr>
+    </tbody>
+    {% endfor %}
+    </table>
+</center>
+{% endblock content %}

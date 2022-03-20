@@ -1,0 +1,8 @@
+'deptCode','dept name'
+'fin','Finance'
+'acc','Acco0unting'
+'pub','Public Relations'
+'hr','Human resou0rses$'
+'comp','Lega@l and Compliance'
+'proj','Project Management'
+'I.T.','Informa1tion Technology'

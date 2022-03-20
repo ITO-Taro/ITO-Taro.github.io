@@ -1,0 +1,16 @@
+{% extends "health_care_portal_base.html" %}
+
+{% block content %}
+<br>
+<center>
+    <div>
+        <form method='post' action='/med_codes'>
+            <label for="med_code">Enter Medical Code:</label>
+            <input type='text' name='med_code' />
+            <input type='submit' />
+        </form>
+    </div>
+    <div style="color:red; font-size:30px">{{message}}</div>
+</center>
+
+{% endblock %}
