@@ -1,7 +1,0 @@
-"comp","WILROB"
-"proj","BROMIC"
-"pub","WILANT"
-"I.T.","MARKEN"
-"fin","PERGEO"
-"hr","ROBJER"
-"acc","PHIAAR"
